@@ -1,0 +1,471 @@
+= CalConnect Guide: Alignment of CalConnect practices towards WTO TBT Principles for the Development of International Standards, Guides and Recommendations
+:title: Alignment to international principles -- WTO TBT principles for the Development of International Standards, Guides and Recommendations
+:docnumber: 10100
+:status: working-draft
+:doctype: report
+:edition: 1
+:copyright-year: 2018
+:revdate: 2018-11-26T00:00:00Z
+:language: en
+:technical-committee: PUBLISH
+:draft:
+:toc:
+:local-cache-only:
+:data-uri-image:
+
+////
+Authors
+Thomas Schäfer, 1&1 Mail&Media Development and Technology GmbH
+Jesse Thompson, University of Wisconsin-Madison
+////
+
+.Foreword
+The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
+organization with the aim of facilitating interoperability of technologies across
+user-centric systems and applications.
+
+CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.
+
+The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives, and in this case, also aligned
+with the procedures used at M3AAWG.
+
+In particular the different approval criteria needed for the different types of
+CalConnect documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.
+
+Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).
+
+Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.
+
+This document was prepared by Technical Committee _{technical-committee}_.
+
+
+:sectnums!:
+== Introduction
+
+Amongst CalConnect's goals is to facilitate interoperable technologies
+across geographical and geopolitical barriers.
+
+As an international standardizing body, CalConnect has agreed to operate
+in accordance to principles stated in the WTO TBT Agreement (<<WTOTBTP>>)
+to facilitate the reduction of trade barriers worldwide.
+
+In particular, this document provides description on how CalConnect
+implements the TBT principles for international standardization bodies
+stated in the "`Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement`" of <<WTOTBTP>>.
+
+
+:sectnums:
+== Scope
+
+This document describes the alignment of CalConnect practices and
+processes in their alignment to WTO TBT Principles, stated in
+the "`Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement`" of <<WTOTBTP>>.
+
+Actual practices in the CalConnect standardization process are
+described in CalConnect directives. The goal of this document
+is to describe how current practices align to the principles;
+this document does not modify current or demand any
+additional practice.
+
+
+[bibliography]
+== Normative references
+
+* [[[WTOTBTP,WTO TBT Principles]]], _,Annex 2: Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement; Decisions and recommendations adopted by the TBT Committee since 1 January 1995: Annexes to Part 1; _WTO Agreements Series: Technical Barriers to Trade_, World Trade Organization
+
+* [[[CC10001,CC/DIR 10001]]], _CalConnect Directive: Standardization and publication_
+
+* [[[CC10002,CC/DIR 10002]]], _CalConnect Directive: Document requirements_
+
+* [[[CC10003,CC/DIR 10003]]], _CalConnect Directive: Intellectual property rights policy_
+
+
+[[terms]]
+== Terms, definitions and abbreviations
+
+=== Terms and definitions
+
+==== international standardizing body
+
+body that publishes international standards
+
+// TODO
+
+==== CalConnect participants
+
+participants in CalConnect activities, including all members of CalConnect,
+experts participating on behalf of CalConnect liaison and partnership organizations
+
+
+
+
+[[abbrev]]
+=== Abbreviations
+
+WTO:: World Trade Organization
+
+TBT:: Technical Barriers to Trade
+
+
+== WTO TBT principle 1: Transparency
+
+=== Principles
+
+[quote,WTO Agreements Series on transparency principles]
+____
+All essential information regarding current work programmes, as well as on proposals for standards, guides and recommendations under consideration and on the final results should be made easily accessible to at least all interested parties in the territories of at least all WTO Members.
+
+Procedures should be established so that adequate time and opportunities are provided for written comments. The information on these procedures should be effectively disseminated.
+____
+
+Essential information regarding the current work programs at CalConnect,
+as well as proposals for standardization work items, covering all
+standards, guides and recommendations, are made readily accessible
+on the Internet at the (<<CDR>>) free of charge.
+This website is available to all WTO Members with Internet access.
+
+The CalConnect standardization processes and procedures are described
+in CalConnect directives (see <<CC10001>>, <<CC10002>> and <<CC10003>>),
+which fulfill the requirements and are publicly available on <<CDR>>.
+
+
+=== Requirements
+
+The WTO TBT decision specifically states that "`essential information`"
+should be provided according to the following requirements.
+
+==== Early notice of standards development
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+a. the publication of a notice at an early appropriate stage, in such a manner as to enable interested parties to become acquainted with it, that the international standardizing body proposes to develop a particular standard;
+____
+
+<<CC10001,clause="6.6.1.3.a">> specifies that an accepted standardization
+project proposal shall be listed in the CalConnect project registry.
+
+
+
+==== Notification to members of standardizing body
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+b. the notification or other communication through established mechanisms to members of the international standardizing body, providing a brief description of the scope of the draft standard, including its objective and rationale. Such communications shall take place at an early appropriate stage, when amendments can still be introduced and comments taken into account;
+____
+
+<<CC10001,clause="6.6.1.3.b">> specifies that an accepted standardization
+project proposal shall be announced to CalConnect members at an early enough stage
+to facilitate amendments and comments.
+
+[[draft-availability]]
+==== Draft availability to members
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+c. upon request, the prompt provision to members of the international standardizing body of the text of the draft standard;
+____
+
+* <<CC10001,clause="6.6.7.b">> specifies that an a new draft version at the Preparatory
+stage should be announced to all TCs;
+
+* <<CC10001,clause="6.6.7.c">> specifies that an a new draft version at a development
+stage may be announced to the CalConnect-wide membership for comments; and
+
+
+==== Adequate time for membership comments
+
+//* <<CC10001,clause="6.6.7.d">> specifies that a draft version may be posted for external
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+d. the provision of an adequate period of time for interested parties in the territory of at least all members of the international standardizing body to make comments in writing and take these written comments into account in the further consideration of the standard;
+____
+
+<<CC10001,clause="7">> specifies that a public review period of 60 days
+is open to all interested parties prior to adoption of a standard.
+
+
+==== Prompt publication notice
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+e. the prompt publication of a standard upon adoption; and
+____
+
+<<CC10001,clause="6.6.9.1">> specifies that a standard once approved and published
+will be made available on the public <<CDR>>.
+
+
+==== Publication of work program
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+f. to publish periodically a work programme containing information on the standards currently being prepared and adopted.
+____
+
+
+<<CC10001,clause="6.6.9.3">> specifies that all CalConnect projects are
+registered in the public <<CDR>>.
+
+
+==== Availability over the Internet
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+It is recognized that the publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes electronically, via the Internet, where feasible, can provide a useful means of ensuring the timely provision of information. At the same time, it is also recognized that the requisite technical means may not be available in some cases, particularly with regard to developing countries. Accordingly, it is important that procedures are in place to enable hard copies of such documents to be made available upon request.
+____
+
+Publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes of CalConnect are all performed through the Internet.
+
+The postal address of CalConnect is given on all CalConnect documents
+for which hard copies of such documents can be requested through
+a fair monetary sum.
+
+(TODO: this is to be agreed)
+
+
+== Openness
+
+=== Non-discrimination in participation
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+Membership of an international standardizing body should be open on a non-discriminatory basis to relevant bodies of at least all WTO Members. This would include openness without discrimination with respect to the participation at the policy development level and at every stage of standards development, such as the:
+
+a. proposal and acceptance of new work items;
+
+b. technical discussion on proposals;
+
+c. submission of comments on drafts in order that they can be taken into account;
+
+d. reviewing existing standards;
+
+e. voting and adoption of standards; and
+
+f. dissemination of the adopted standards.
+____
+
+
+CalConnect is an international standards body that welcomes participation
+from commercial, non-commercial, governmental bodies and individuals
+through its membership system (see <<CCMEMBERS>>).
+
+Development of CalConnect policies are driven by the Board of Directors
+at CalConnect, which hold elected positions within the membership, and
+their enactment and approval widely involve the CalConnect membership.
+
+As described in <<CC10001>>, CalConnect members are allowed to
+participate in every stage of standards development:
+
+. full members are allowed to propose new work items (<<WTOTBTP,clause="2.a">>),
+participate in standards development activities (<<WTOTBTP,clause="2.b-d">>),
+vote on adoption of standards (<<WTOTBTP,clause="2.e">>),
+and disseminate standards within the membership organization (<<WTOTBTP,clause="2.f">>);
+
+. supporting members are allowed to receive notification of newly proposed standards
+and submit their comments during the public review period (<<WTOTBTP,clause="2.c">>),
+and disseminate the adopted standards within the organization (<<WTOTBTP,clause="2.f">>);
+
+. external liaison and partnership organizations are allowed varied participation
+rights depending on the particular agreement CalConnect has with them, for example,
+ISO/TCs that CalConnect liaisons with are allowed to fully participate in the
+CalConnect standardization process.
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+Any interested member of the international standardizing body, including especially developing country Members, with an interest in a specific standardization activity should be provided with meaningful opportunities to participate at all stages of standard development. It is noted that with respect to standardizing bodies within the territory of a WTO Member that have accepted the Code of Good Practice for the Preparation, Adoption and Application of Standards by Standardizing Bodies (Annex 3 of the TBT Agreement) participation in a particular international standardization activity takes place, wherever possible, through one delegation representing all standardizing bodies in the territory that have adopted, or expected to adopt, standards for the subject-matter to which the international standardization activity relates. This is illustrative of the importance of participation in the international standardizing process accommodating all relevant interests.
+____
+
+CalConnect operates under a non-discrimination principle such that membership
+categories do not distinguish the origin of organizations between developing and
+developed countries.
+
+This practice effectively allows participation of having one
+delegation representing multiple standardizing bodies at CalConnect
+international standardization activities as a single member, as specified in
+the last paragraph in (<<WTOTBTP,clause="2">>).
+
+
+== Impartiality and consensus
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+All relevant bodies of WTO Members should be provided with meaningful opportunities to contribute to the elaboration of an international standard so that the standard development process will not give privilege to, or favour the interests of, a particular supplier/s, country/ies or region/s. Consensus procedures should be established that seek to take into account the views of all parties concerned and to reconcile any conflicting arguments.
+____
+
+CalConnect standardization processes is consensus-based and does not
+provide privilege to any particular entity. <<CC10001>> fully describes
+the CalConnect standardization processes, which employs a bottom-up
+consensus process.
+
+In particular, the application of requirements of <<WTOTBTP,clause="3">>:
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+Impartiality should be accorded throughout all the standards development process with respect to, among other things:
+
+a. access to participation in work;
+
+b. submission of comments on drafts;
+
+c. consideration of views expressed and comments made;
+
+d. decision-making through consensus;
+
+e. obtaining of information and documents;
+
+f. dissemination of the international standard;
+
+g. fees charged for documents;
+
+h. right to transpose the international standard into a regional or national standard; and
+
+i. revision of the international standard.
+____
+
+
+. Participation of work is at the TC-level as specified in <<CC10001,clause="6.4">>,
+which is open to all full members of CalConnect (aligns with <<WTOTBTP,clause="3.a">>);
+
+. Submission of comments at stages relevant to comments, including
+the Committee stage <<CC10001,clause="6.6.4">>, Approval stage <<CC10001,clause="6.6.4">>
+as well as the Pre-publication stages <<CC10001,clause="6.6.8">> are open to all
+eligible bodies (aligns with <<WTOTBTP,clause="3.b">>);
+
+. The CalConnect commenting process (<<CC10001,clause="8.1">>)
+specifies that comments are considered by the TCC and the TC that owns the
+standardization work item. Comments and feedback are judged according to
+their technical contributions in an impartial way
+(<<CC10001,clause="8.4">>) (aligns with <<WTOTBTP,clause="3.c">>).
+
+. The CalConnect standardization process is fully based on a
+bottom-up consensus model resolved via balloting (<<CC10001,clause="8.1">>),
+with the scope being the technical body in charge, in this case
+the owning TC at the earlier stages, the TCC and the membership body
+at later stages (aligns with <<WTOTBTP,clause="3.d">>);
+
+. CalConnect standardization work items and their information can
+  be obtained directly from the <<CDR>> (aligns with <<WTOTBTP,clause="3.e">>).
+
+. CalConnect standardization work items and their information can
+  be disseminated to the membership organization <<CDR>> (aligns with <<WTOTBTP,clause="3.f">>).
+
+. CalConnect standardization work items are provided free-of-charge (<<CC10001,clause="8.4">>) (aligns with <<WTOTBTP,clause="3.g">>).
+
+. TODO: enact this? "`h. right to transpose the international standard into a regional or national standard; and`"
+.. CalConnect allows regional or national standards bodies to transpose
+  a CalConnect standard into a regional or national standard,
+  under an official, non-discriminatory and impartial arrangement
+  (aligns with  <<WTOTBTP,clause="3.h">>).
+
+. CalConnect standardization work items are revised by the owning TC
+  according to <<CC10001,clause="11">>, of which participation is open to all
+  full members (aligns with <<WTOTBTP,clause="3.i">>).
+
+
+
+== Effectiveness and relevance
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+In order to serve the interests of the WTO membership in facilitating international trade and preventing unnecessary trade barriers, international standards need to be relevant and to effectively respond to regulatory and market needs, as well as scientific and technological developments in various countries. They should not distort the global market, have adverse effects on fair competition, or stifle innovation and technological development. In addition, they should not give preference to the characteristics or requirements of specific countries or regions when different needs or interests exist in other countries or regions. Whenever possible, international standards should be performance based rather than based on design or descriptive characteristics.
+____
+
+CalConnect is a membership-driven international standards organization that
+aims to facilitate interoperability of technical systems, often through
+standardization of innovative technologies (<<CCMISSION>>).
+
+Membership at CalConnect is open to all WTO members, and its standards
+are widely impacting on a global scale (<<CCMEMBERS>>).
+
+Standards created by CalConnect are performance-based, as in based
+on sets of requirements rather than based on descriptive characteristics.
+
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+Accordingly, it is important that international standardizing bodies:
+
+. take account of relevant regulatory or market needs, as feasible and appropriate, as well as scientific and technological developments in the elaboration of standards;
+
+. put in place procedures aimed at identifying and reviewing standards that have become obsolete, inappropriate or ineffective for various reasons; and
+
+. put in place procedures aimed at improving communication with the World Trade Organization.
+____
+
+
+TODO (add in <<CC10001>>).
+
+
+
+
+== Coherence
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+In order to avoid the development of conflicting international standards, it is important that international standardizing bodies avoid duplication of, or overlap with, the work of other international standardizing bodies. In this respect, cooperation and coordination with other relevant international bodies is essential.
+____
+
+CalConnect maintains a number of liaisons and partnerships with
+other international standardization bodies including ISO, OASIS
+and M3AAWG in order to:
+
+* coordinate to prevent duplication of work on standardization topics;
+* cooperate and collaborate on standardization topics.
+
+
+== Development dimension
+
+[quote,WTO Agreements Series on transparency: Requirements]
+____
+Constraints on developing countries, in particular, to effectively participate in standards development, should be taken into consideration in the standards development process. Tangible ways of facilitating developing countries' participation in international standards development should be sought. The impartiality and openness of any international standardization process requires that developing countries are not excluded de facto from the process. With respect to improving participation by developing countries, it may be appropriate to use technical assistance, in line with Article 11 of the TBT Agreement. Provisions for capacity building and technical assistance within international standardizing bodies are important in this context.
+____
+
+CalConnect adheres to the principles that participation in
+the standardization process should be fair and be based on
+technical and market merit, regardless of the origin of the
+participant.
+
+To this end, CalConnect adopts the following practices
+that are beneficial to developing countries:
+
+* Our standards facilitates the ease of international trade;
+
+* Our standards are open and free, available on the <<CDR>> through the Internet;
+
+* Contribution to standards can be done over phone, email or the Internet;
+
+* Non-members can get directly in touch about a standardization subject matter at certain events, including CalConnect Hackathons;
+
+* Our general mailing list is open for all interested in the subject;
+
+* Our public commenting process (<<CC10001,clause="8">>) is open to everyone;
+
+* Our supporting membership category provides a large discount
+  compared to full membership allowing smaller organizations
+  and those from developing countries to participate and obtain
+  visibility in the standardization process;
+
+* Full membership fees for commercial entities are considered purely
+  on organizational revenue allows organizations with revenue coming from
+  developing countries to benefit from a lower membership fee.
+
+
+[bibliography]
+== Bibliography
+
+* [[[CDR,CalConnect document registry]]], _CalConnect document registry_, https://www.calendarstandards.org
+
+* [[[CCMEMBERS,CalConnect members]]], _CalConnect members_, https://www.calconnect.org/membership-categories-and-fees
+
+* [[[CCMISSION,CalConnect mission]]], _CalConnect mission_, https://www.calendarstandards.org
+
