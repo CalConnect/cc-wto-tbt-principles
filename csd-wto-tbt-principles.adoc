@@ -389,7 +389,7 @@ are widely impacting on a global scale (<<CCMEMBERS>>).
 
 Standards created by CalConnect are performance-based, as in based
 on sets of requirements rather than based on descriptive characteristics.
-
+// TODO: this is not specified in CC/DIR 10001
 
 [quote,WTO Agreements Series on transparency: Requirements]
 ____
@@ -403,7 +403,14 @@ Accordingly, it is important that international standardizing bodies:
 ____
 
 
-TODO (add in <<CC10001>>).
+CalConnect standardization work item initiation requirements (<<CC10001,clause=6.6.1.2.c-d>>)
+aligns with <<WTOTBTP,clause="4.a">>.
+
+<<CC10001,clause=11.1>> specifies the mandatory review period
+for every CalConnect standard to be reviewed for relevance,
+which aligns with <<WTOTBTP,clause="4.b">>.
+
+NOTIFICATION TO WTO: TODO (add in <<CC10001>>).
 
 
 
