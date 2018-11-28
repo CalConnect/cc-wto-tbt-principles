@@ -120,7 +120,7 @@ TBT:: Technical Barriers to Trade
 
 === Principles
 
-[quote,WTO Agreements Series on transparency principles]
+[quote,World Trade Organization,"WTOTBTP,clause=1,paragraph=1"]
 ____
 All essential information regarding current work programmes, as well as on proposals for standards, guides and recommendations under consideration and on the final results should be made easily accessible to at least all interested parties in the territories of at least all WTO Members.
 
@@ -145,7 +145,7 @@ should be provided according to the following requirements.
 
 ==== Early notice of standards development
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.a."]
 ____
 a. the publication of a notice at an early appropriate stage, in such a manner as to enable interested parties to become acquainted with it, that the international standardizing body proposes to develop a particular standard;
 ____
@@ -157,7 +157,7 @@ project proposal shall be listed in the CalConnect project registry.
 
 ==== Notification to members of standardizing body
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.b."]
 ____
 b. the notification or other communication through established mechanisms to members of the international standardizing body, providing a brief description of the scope of the draft standard, including its objective and rationale. Such communications shall take place at an early appropriate stage, when amendments can still be introduced and comments taken into account;
 ____
@@ -169,7 +169,7 @@ to facilitate amendments and comments.
 [[draft-availability]]
 ==== Draft availability to members
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.c."]
 ____
 c. upon request, the prompt provision to members of the international standardizing body of the text of the draft standard;
 ____
@@ -185,7 +185,7 @@ stage may be announced to the CalConnect-wide membership for comments; and
 
 //* <<CC10001,clause="6.6.7.d">> specifies that a draft version may be posted for external
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.d."]
 ____
 d. the provision of an adequate period of time for interested parties in the territory of at least all members of the international standardizing body to make comments in writing and take these written comments into account in the further consideration of the standard;
 ____
@@ -196,7 +196,7 @@ is open to all interested parties prior to adoption of a standard.
 
 ==== Prompt publication notice
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.e."]
 ____
 e. the prompt publication of a standard upon adoption; and
 ____
@@ -207,7 +207,7 @@ will be made available on the public <<CDR>>.
 
 ==== Publication of work program
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1.f."]
 ____
 f. to publish periodically a work programme containing information on the standards currently being prepared and adopted.
 ____
@@ -219,7 +219,7 @@ registered in the public <<CDR>>.
 
 ==== Availability over the Internet
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=1,paragraph=2"]
 ____
 It is recognized that the publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes electronically, via the Internet, where feasible, can provide a useful means of ensuring the timely provision of information. At the same time, it is also recognized that the requisite technical means may not be available in some cases, particularly with regard to developing countries. Accordingly, it is important that procedures are in place to enable hard copies of such documents to be made available upon request.
 ____
@@ -237,7 +237,7 @@ a fair monetary sum.
 
 === Non-discrimination in participation
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=2,paragraph=1"]
 ____
 Membership of an international standardizing body should be open on a non-discriminatory basis to relevant bodies of at least all WTO Members. This would include openness without discrimination with respect to the participation at the policy development level and at every stage of standards development, such as the:
 
@@ -280,7 +280,7 @@ rights depending on the particular agreement CalConnect has with them, for examp
 ISO/TCs that CalConnect liaisons with are allowed to fully participate in the
 CalConnect standardization process.
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=2,paragraph=2"]
 ____
 Any interested member of the international standardizing body, including especially developing country Members, with an interest in a specific standardization activity should be provided with meaningful opportunities to participate at all stages of standard development. It is noted that with respect to standardizing bodies within the territory of a WTO Member that have accepted the Code of Good Practice for the Preparation, Adoption and Application of Standards by Standardizing Bodies (Annex 3 of the TBT Agreement) participation in a particular international standardization activity takes place, wherever possible, through one delegation representing all standardizing bodies in the territory that have adopted, or expected to adopt, standards for the subject-matter to which the international standardization activity relates. This is illustrative of the importance of participation in the international standardizing process accommodating all relevant interests.
 ____
@@ -297,7 +297,7 @@ the last paragraph in (<<WTOTBTP,clause="2">>).
 
 == Impartiality and consensus
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=3,paragraph=1"]
 ____
 All relevant bodies of WTO Members should be provided with meaningful opportunities to contribute to the elaboration of an international standard so that the standard development process will not give privilege to, or favour the interests of, a particular supplier/s, country/ies or region/s. Consensus procedures should be established that seek to take into account the views of all parties concerned and to reconcile any conflicting arguments.
 ____
@@ -309,7 +309,7 @@ consensus process.
 
 In particular, the application of requirements of <<WTOTBTP,clause="3">>:
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=3,paragraph=2"]
 ____
 Impartiality should be accorded throughout all the standards development process with respect to, among other things:
 
@@ -375,7 +375,7 @@ at later stages (aligns with <<WTOTBTP,clause="3.d">>);
 
 == Effectiveness and relevance
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=4,paragraph=1"]
 ____
 In order to serve the interests of the WTO membership in facilitating international trade and preventing unnecessary trade barriers, international standards need to be relevant and to effectively respond to regulatory and market needs, as well as scientific and technological developments in various countries. They should not distort the global market, have adverse effects on fair competition, or stifle innovation and technological development. In addition, they should not give preference to the characteristics or requirements of specific countries or regions when different needs or interests exist in other countries or regions. Whenever possible, international standards should be performance based rather than based on design or descriptive characteristics.
 ____
@@ -391,7 +391,7 @@ Standards created by CalConnect are performance-based, as in based
 on sets of requirements rather than based on descriptive characteristics.
 // TODO: this is not specified in CC/DIR 10001
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=4,paragraph=2"]
 ____
 Accordingly, it is important that international standardizing bodies:
 
@@ -417,7 +417,7 @@ NOTIFICATION TO WTO: TODO (add in <<CC10001>>).
 
 == Coherence
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=5"]
 ____
 In order to avoid the development of conflicting international standards, it is important that international standardizing bodies avoid duplication of, or overlap with, the work of other international standardizing bodies. In this respect, cooperation and coordination with other relevant international bodies is essential.
 ____
@@ -432,7 +432,7 @@ and M3AAWG in order to:
 
 == Development dimension
 
-[quote,WTO Agreements Series on transparency: Requirements]
+[quote,World Trade Organization,"WTOTBTP,clause=6"]
 ____
 Constraints on developing countries, in particular, to effectively participate in standards development, should be taken into consideration in the standards development process. Tangible ways of facilitating developing countries' participation in international standards development should be sought. The impartiality and openness of any international standardization process requires that developing countries are not excluded de facto from the process. With respect to improving participation by developing countries, it may be appropriate to use technical assistance, in line with Article 11 of the TBT Agreement. Provisions for capacity building and technical assistance within international standardizing bodies are important in this context.
 ____
