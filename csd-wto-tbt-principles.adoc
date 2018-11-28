@@ -410,9 +410,9 @@ aligns with <<WTOTBTP,clause="4.a">>.
 for every CalConnect standard to be reviewed for relevance,
 which aligns with <<WTOTBTP,clause="4.b">>.
 
-NOTIFICATION TO WTO: TODO (add in <<CC10001>>).
-
-
+In order to improve communication with the World Trade Organization,
+CalConnect is a signatory of the <<WTOTBTCode>> and is listed on the <<WTOISOSIG>>.
+The CalConnect standardization work program is provided at the <<CDR>> with regular updates, and is also linked from the <<WTOISOSIG>>.
 
 
 == Coherence
@@ -476,3 +476,6 @@ that are beneficial to developing countries:
 
 * [[[CCMISSION,CalConnect mission]]], _CalConnect mission_, https://www.calendarstandards.org
 
+* [[[WTOISOSIG,WTO ISO Standards Information Gateway]]], _WTO ISO Standards Information Gateway_, https://tbtcode.iso.org/
+
+* [[[WTOTBTCode,WTO TBT Code of Good Practice]]], _WTO TBT Code of Good Practice_, https://www.wto.org/english/tratop_e/tbt_e/tbt_e.htm
