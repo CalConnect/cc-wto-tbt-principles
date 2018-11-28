@@ -98,8 +98,6 @@ additional practice.
 
 body that publishes international standards
 
-// TODO
-
 ==== CalConnect participants
 
 participants in CalConnect activities, including all members of CalConnect,
@@ -230,8 +228,6 @@ The postal address of CalConnect is given on all CalConnect documents
 for which hard copies of such documents can be requested through
 a fair monetary sum.
 
-(TODO: this is to be agreed)
-
 
 == Openness
 
@@ -361,10 +357,9 @@ at later stages (aligns with <<WTOTBTP,clause="3.d">>);
 
 . CalConnect standardization work items are provided free-of-charge (<<CC10001,clause="8.4">>) (aligns with <<WTOTBTP,clause="3.g">>).
 
-. TODO: enact this? "`h. right to transpose the international standard into a regional or national standard; and`"
-.. CalConnect allows regional or national standards bodies to transpose
+. CalConnect allows regional or national standards bodies to transpose
   a CalConnect standard into a regional or national standard,
-  under an official, non-discriminatory and impartial arrangement
+  under an official, non-discriminatory and mutually-beneficial arrangement
   (aligns with  <<WTOTBTP,clause="3.h">>).
 
 . CalConnect standardization work items are revised by the owning TC
@@ -382,14 +377,15 @@ ____
 
 CalConnect is a membership-driven international standards organization that
 aims to facilitate interoperability of technical systems, often through
-standardization of innovative technologies (<<CCMISSION>>).
+standardization of innovative technologies
+(<<CCMISSION,"Introduction to CalConnect: Overview">>).
 
 Membership at CalConnect is open to all WTO members, and its standards
 are widely impacting on a global scale (<<CCMEMBERS>>).
 
 Standards created by CalConnect are performance-based, as in based
-on sets of requirements rather than based on descriptive characteristics.
-// TODO: this is not specified in CC/DIR 10001
+on sets of requirements rather than based on descriptive characteristics
+(<<CC10001,clause=5.2>>).
 
 [quote,World Trade Organization,"WTOTBTP,clause=4,paragraph=2"]
 ____
@@ -474,7 +470,7 @@ that are beneficial to developing countries:
 
 * [[[CCMEMBERS,CalConnect members]]], _CalConnect members_, https://www.calconnect.org/membership-categories-and-fees
 
-* [[[CCMISSION,CalConnect mission]]], _CalConnect mission_, https://www.calendarstandards.org
+* [[[CCMISSION,Introduction to CalConnect]]], _Introduction to CalConnect_, https://www.calconnect.org/about
 
 * [[[WTOISOSIG,WTO ISO Standards Information Gateway]]], _WTO ISO Standards Information Gateway_, https://tbtcode.iso.org/
 
