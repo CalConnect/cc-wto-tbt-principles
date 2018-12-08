@@ -145,7 +145,7 @@ should be provided according to the following requirements.
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.a."]
 ____
-a. the publication of a notice at an early appropriate stage, in such a manner as to enable interested parties to become acquainted with it, that the international standardizing body proposes to develop a particular standard;
+{empty}a. the publication of a notice at an early appropriate stage, in such a manner as to enable interested parties to become acquainted with it, that the international standardizing body proposes to develop a particular standard;
 ____
 
 <<CC10001,clause="6.6.1.3.a">> specifies that an accepted standardization
@@ -157,7 +157,7 @@ project proposal shall be listed in the CalConnect project registry.
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.b."]
 ____
-b. the notification or other communication through established mechanisms to members of the international standardizing body, providing a brief description of the scope of the draft standard, including its objective and rationale. Such communications shall take place at an early appropriate stage, when amendments can still be introduced and comments taken into account;
+{empty}b. the notification or other communication through established mechanisms to members of the international standardizing body, providing a brief description of the scope of the draft standard, including its objective and rationale. Such communications shall take place at an early appropriate stage, when amendments can still be introduced and comments taken into account;
 ____
 
 <<CC10001,clause="6.6.1.3.b">> specifies that an accepted standardization
@@ -169,7 +169,7 @@ to facilitate amendments and comments.
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.c."]
 ____
-c. upon request, the prompt provision to members of the international standardizing body of the text of the draft standard;
+{empty}c. upon request, the prompt provision to members of the international standardizing body of the text of the draft standard;
 ____
 
 * <<CC10001,clause="6.6.7.b">> specifies that an a new draft version at the Preparatory
@@ -185,7 +185,7 @@ stage may be announced to the CalConnect-wide membership for comments; and
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.d."]
 ____
-d. the provision of an adequate period of time for interested parties in the territory of at least all members of the international standardizing body to make comments in writing and take these written comments into account in the further consideration of the standard;
+{empty}d. the provision of an adequate period of time for interested parties in the territory of at least all members of the international standardizing body to make comments in writing and take these written comments into account in the further consideration of the standard;
 ____
 
 <<CC10001,clause="7">> specifies that a public review period of 60 days
@@ -196,7 +196,7 @@ is open to all interested parties prior to adoption of a standard.
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.e."]
 ____
-e. the prompt publication of a standard upon adoption; and
+{empty}e. the prompt publication of a standard upon adoption; and
 ____
 
 <<CC10001,clause="6.6.9.1">> specifies that a standard once approved and published
@@ -207,7 +207,7 @@ will be made available on the public <<CDR>>.
 
 [quote,World Trade Organization,"WTOTBTP,clause=1.f."]
 ____
-f. to publish periodically a work programme containing information on the standards currently being prepared and adopted.
+{empty}f. to publish periodically a work programme containing information on the standards currently being prepared and adopted.
 ____
 
 
@@ -226,7 +226,7 @@ Publication and communication of notices, notifications, draft standards, commen
 
 The postal address of CalConnect is given on all CalConnect documents
 for which hard copies of such documents can be requested through
-a fair monetary sum.
+a fair monetary sum, as determined by the Executive Director on a case by case basis.
 
 
 == Openness
@@ -360,7 +360,18 @@ at later stages (aligns with <<WTOTBTP,clause="3.d">>);
 . CalConnect allows regional or national standards bodies to transpose
   a CalConnect standard into a regional or national standard,
   under an official, non-discriminatory and mutually-beneficial arrangement
-  (aligns with  <<WTOTBTP,clause="3.h">>).
+  in accordance with the following requirements:
+  (aligns with  <<WTOTBTP,clause="3.h">>)
+
+.. The arrangement must be officially settled by both parties prior to transposition;
+
+.. The relationship between the transposed CalConnect standard and the
+  regional or national standard must be made clear to the reader, whether
+  the transposition is:
+
+*** identical (identical intention and content);
+*** equivalent (identical intention but with minor modifications); or
+*** unequal (identical intention, but with major modifications)
 
 . CalConnect standardization work items are revised by the owning TC
   according to <<CC10001,clause="11">>, of which participation is open to all
