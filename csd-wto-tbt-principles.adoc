@@ -6,6 +6,7 @@
 :edition: 1
 :copyright-year: 2018
 :revdate: 2018-11-26T00:00:00Z
+:published-date: 2018-11-26T00:00:00Z
 :language: en
 :technical-committee: PUBLISH
 :draft:
