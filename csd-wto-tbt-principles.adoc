@@ -224,6 +224,12 @@ ____
 
 Publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes of CalConnect are all performed through the Internet.
 
+In particular, the <<CDR>> provides timely information of the following:
+
+. standards, draft standards, adopted standards;
+. standards work programs and notifications; and
+. comments solicitation notices.
+
 The postal address of CalConnect is given on all CalConnect documents
 for which hard copies of such documents can be requested through
 a fair monetary sum, as determined by the Executive Director on a case by case basis.
