@@ -1,12 +1,12 @@
 = CalConnect Guide: Alignment of CalConnect practices towards WTO TBT Principles for the Development of International Standards, Guides and Recommendations
 :title: Alignment to international principles -- WTO TBT principles for the Development of International Standards, Guides and Recommendations
 :docnumber: 10100
-:status: working-draft
+:status: draft-standard
 :doctype: report
 :edition: 1
-:copyright-year: 2018
-:revdate: 2018-11-26T00:00:00Z
-:published-date: 2018-11-26T00:00:00Z
+:copyright-year: 2019
+:revdate: 2019-01-18
+:published-date: 2019-01-18
 :language: en
 :technical-committee: PUBLISH
 :draft:
