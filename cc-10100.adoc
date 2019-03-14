@@ -1,12 +1,12 @@
 = CalConnect Guide: Alignment of CalConnect practices towards WTO TBT Principles for the Development of International Standards, Guides and Recommendations
 :title: Alignment to international principles -- WTO TBT principles for the Development of International Standards, Guides and Recommendations
 :docnumber: 10100
-:status: draft-standard
+:status: published
 :doctype: report
 :edition: 1
 :copyright-year: 2019
-:revdate: 2019-03-13
-:published-date: 2019-03-13
+:revdate: 2019-03-15
+:published-date: 2019-03-15
 :language: en
 :technical-committee: PUBLISH
 :draft:
@@ -19,12 +19,6 @@
 :mn-output-extensions: xml,html,pdf
 :local-cache-only:
 :data-uri-image:
-
-////
-Authors
-Thomas Schäfer, 1&1 Mail&Media Development and Technology GmbH
-Jesse Thompson, University of Wisconsin-Madison
-////
 
 .Foreword
 The Calendaring and Scheduling Consortium ("`CalConnect`") is global non-profit
