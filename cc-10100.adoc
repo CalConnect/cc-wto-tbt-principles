@@ -5,8 +5,8 @@
 :doctype: report
 :edition: 1
 :copyright-year: 2019
-:revdate: 2019-01-18
-:published-date: 2019-01-18
+:revdate: 2019-03-13
+:published-date: 2019-03-13
 :language: en
 :technical-committee: PUBLISH
 :draft:
@@ -35,8 +35,7 @@ CalConnect works closely with liaison partners including international
 organizations such as ISO, OASIS and M3AAWG.
 
 The procedures used to develop this document and those intended for its further
-maintenance are described in the CalConnect Directives, and in this case, also aligned
-with the procedures used at M3AAWG.
+maintenance are described in the CalConnect Directives.
 
 In particular the different approval criteria needed for the different types of
 CalConnect documents should be noted. This document was drafted in accordance with the
@@ -268,9 +267,9 @@ CalConnect is an international standards body that welcomes participation
 from commercial, non-commercial, governmental bodies and individuals
 through its membership system (see <<CCMEMBERS>>).
 
-Development of CalConnect policies are driven by the Board of Directors
-at CalConnect, which hold elected positions within the membership, and
-their enactment and approval widely involve the CalConnect membership.
+Development of CalConnect Policies are driven and overseen by the
+elected Board of Directors of CalConnect, and their enactment and
+approval involve the CalConnect membership.
 
 As described in <<CC10001>>, CalConnect members are allowed to
 participate in every stage of standards development:
@@ -482,15 +481,18 @@ that are beneficial to developing countries:
   and those from developing countries to participate and obtain
   visibility in the standardization process;
 
-* Full membership fees for commercial entities are considered purely
-  on organizational revenue allows organizations with revenue coming from
-  developing countries to benefit from a lower membership fee.
+* Full membership fees for commercial vendors are considered on
+  organizational revenue, allowing those from developing countries to
+  benefit from a lower membership fee.
+  In addition, membership fees for all other organizations and
+  individual memberships are set low to ensure availability
+  regardless of revenue or location.
 
 
 [bibliography]
 == Bibliography
 
-* [[[CDR,CalConnect document registry]]], _CalConnect document registry_, https://www.calendarstandards.org
+* [[[CDR,CalConnect document registry]]], _CalConnect document registry_, https://standards.calconnect.org
 
 * [[[CCMEMBERS,CalConnect members]]], _CalConnect members_, https://www.calconnect.org/membership-categories-and-fees
 
