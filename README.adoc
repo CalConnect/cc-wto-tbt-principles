@@ -4,7 +4,7 @@
 
 This work item belongs to TC CALSPAM.
 
-image:https://travis-ci.com/calconnect/csd-wto-tbt-principles.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-wto-tbt-principles"]
+image:https://travis-ci.com/CalConnect/csd-wto-tbt-principles.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-wto-tbt-principles"]
 
 This document is available in its rendered forms here:
 
