@@ -1,0 +1,8 @@
+---
+metanorma:
+  deploy:
+    email: "travis-ci@metanorma.org"
+relaton:
+  collection:
+    name: CalConnect and WTO TBT Principles
+    organization: CalConnect
