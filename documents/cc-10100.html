@@ -1,0 +1,1482 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Source Sans Pro", sans-serif; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Source Code Pro", monospace !important;
+  font-variant-ligatures: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: "Source Sans Pro", sans-serif; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+#standard-band {
+  background-color: #0AC442; }
+
+#standard {
+  border-bottom: solid 3px #0AC442; }
+
+#directive-band {
+  background-color: #540D6E; }
+
+#directive {
+  border-bottom: solid 3px #540D6E; }
+
+#guide-band {
+  background-color: #D183C9; }
+
+#guide {
+  border-bottom: solid 3px #D183C9; }
+
+#specification-band {
+  background-color: #65AFFF; }
+
+#specification {
+  border-bottom: solid 3px #65AFFF; }
+
+#report-band {
+  background-color: #3A405A; }
+
+#report {
+  border-bottom: solid 3px #3A405A; }
+
+#amendment-band {
+  background-color: #F26430; }
+
+#amendment {
+  border-bottom: solid 3px #F26430; }
+
+#corrigendum-band {
+  background-color: #C84630; }
+
+#corrigendum {
+  border-bottom: solid 3px #C84630; }
+
+#administrative-band {
+  background-color: #BFAE48; }
+
+#administrative {
+  border-bottom: solid 3px #BFAE48; }
+
+#advisory-band {
+  background-color: #BD9391; }
+
+#advisory {
+  border-bottom: solid 3px #BD9391; }
+
+#proposal-band {
+  background-color: #39A0ED; }
+
+#proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#working-draft-band {
+  background-color: #2D7393; }
+
+#working-draft {
+  border-bottom: solid 3px #2D7393; }
+
+#committee-draft-band {
+  background-color: #2A6B7C; }
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C; }
+
+#draft-standard-band {
+  background-color: #1C7F7A; }
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A; }
+
+#final-draft-band {
+  background-color: #53C170; }
+
+#final-draft {
+  border-bottom: solid 3px #53C170; }
+
+#published-band {
+  background-color: #069E2D; }
+
+#published {
+  border-bottom: solid 3px #069E2D; }
+
+#withdrawn-band {
+  background-color: #004E64; }
+
+#withdrawn {
+  border-bottom: solid 3px #004E64; }
+
+#cancelled-band {
+  background-color: #2E382E; }
+
+#cancelled {
+  border-bottom: solid 3px #2E382E; }
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #fff; }
+  body main {
+    margin: 0 3em 0 6em; }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; } }
+
+@media print {
+  .container {
+    padding-left: 0; } }
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 45px;
+    background-color: #f7f7f7; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+nav #toc {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
+  @media screen and (max-width: 768px) {
+    nav #toc {
+      padding: 0 1.5em;
+      overflow: visible; } }
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #1d1d1d;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+#toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  #toc ul li a {
+    padding: 5px 10px; }
+  #toc ul a {
+    color: #485094;
+    text-decoration: none;
+    display: block; }
+    #toc ul a:hover {
+      box-shadow: none;
+      color: white; }
+
+#toc .h2 {
+  padding-left: 30px; }
+
+#toc .h3 {
+  padding-left: 50px; }
+
+#toc .toc-active, #toc li:hover {
+  background: #1d1d1d;
+  box-shadow: inset -5px 0px 10px -5px #1d1d1d !important; }
+  #toc .toc-active a, #toc li:hover a {
+    color: white; }
+
+@media print {
+  #toc .toc-active, #toc li:hover {
+    background: white;
+    box-shadow: none !important; }
+  #toc .toc-active a {
+    color: #485094; }
+  #toc li:hover a {
+    color: black; } }
+
+#toc ul {
+  margin-bottom: 0.25em; }
+
+#toc li {
+  list-style-type: none; }
+  #toc li:before {
+    content: " " !important;
+    display: none; }
+
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+  @media screen and (min-width: 768px) {
+    .rule.toc {
+      display: none; } }
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 300;
+    height: 160px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+/* Typograpy */
+h1, h2, h3, h4, h5, h6 {
+  color: #0e1a85;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.3em; }
+
+h1 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-top: 2em; }
+  h1#content {
+    margin-top: 2em; }
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 400; }
+  h2 p {
+    display: inline; }
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 400; }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+/* Terms */
+.TermNum, .Terms, .AltTerms {
+  color: #485094;
+  font-weight: 400; }
+
+p.TermNum {
+  font-size: 0.9em;
+  line-height: 1em;
+  margin: 0;
+  margin-top: 2em; }
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  margin: 0; }
+
+/* Links, selection */
+a, a:visited {
+  text-decoration: none;
+  color: #485094; }
+
+a:hover {
+  color: white;
+  background: #1d1d1d;
+  box-shadow: 3px 0 0 #1d1d1d, -3px 0 0 #1d1d1d; }
+
+::selection,
+::-moz-selection {
+  background: #1d1d1d;
+  color: white; }
+
+/* Lists */
+ol {
+  margin-left: 1.2em; }
+
+ul {
+  position: relative;
+  margin-left: 0;
+  list-style: none;
+  padding-left: 1.2em; }
+
+ul > li:before {
+  content: "\2014";
+  position: absolute;
+  left: 0; }
+
+main li {
+  margin-top: 1em;
+  padding-left: 0.5em; }
+
+/* Bibliograhy */
+p.Biblio, p.NormRef {
+  margin-top: 1em; }
+
+p.Biblio:before, p.NormRef:before {
+  content: "\2014";
+  padding-right: 1em; }
+
+/* Blocks */
+.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none; }
+  .figure .FigureTitle, .figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  .figure > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+pre {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none;
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow-y: auto;
+  overflow-x: scroll; }
+  .example pre {
+    background: none; }
+
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  .example .pseudocode {
+    background: none; }
+
+.Admonition .AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.recommend .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.require .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.permission .RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.Note, .Admonition {
+  color: #47430c;
+  padding: 0.25em;
+  margin: 0; }
+
+.Note {
+  background-color: #fff495; }
+  .Note p {
+    margin: 1em; }
+
+.blockquote, .Quote {
+  background-color: #f7f7f7;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+  .blockquote .QuoteAttribution, .Quote .QuoteAttribution {
+    text-align: right; }
+
+.formula, .Formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+/* Examples */
+table.example {
+  background-color: #e1eef1; }
+
+td.example {
+  padding: 0 1em 0 1em;
+  margin: 2em 0 1em 0; }
+
+.example {
+  background-color: #e1eef1;
+  padding: 0.5em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  padding-left: 2em; }
+
+.example p {
+  margin: 0; }
+
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em; }
+
+.example pre, .example .pseudocode {
+  background: none; }
+
+/* Tables */
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weigth: 400; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400; }
+
+/* Footnotes */
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+/* Contact Info */
+.contact-info {
+  background-color: #f7f7f7;
+  padding: 1em;
+  margin-top: 2em;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left; }
+  .contact-info p, .contact-info a {
+    font-family: "Source Code Pro", monospace;
+    font-variant-ligatures: none;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 1em;
+    margin: 0; }
+  .contact-info a:hover {
+    color: #485094;
+    background: none;
+    text-decoration: underline;
+    box-shadow: none; }
+  .contact-info .name {
+    font-weight: 700; }
+
+/* Keywords */
+span.keyword {
+  font-weight: 600; }
+
+/* Admonitions */
+.Admonition, .admonition {
+  background-color: #ffb3b3;
+  padding: 0.5em;
+  margin: 1.5em 0 1.5em 0;
+  text-align: left; }
+  .Admonition p, .admonition p {
+    margin: 0; }
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em; }
+
+.wrapper-top {
+  background-color: #0e1a85;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAABYlAAAWJQFJUiTwAAADwUlEQVR4nO3YgQ2AMAwDwcAiWZ1NizrH30lIeIEq9nPOGSDqPgC7+93v/suy3Mmvhx+6VAAIcwFAmc4nyzYAIMgGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAIS5AKCs3oFk2QYAJNkAIMwFAGX1DiTLNgAgyQYAYS4AKKt3IFm2AQBJNgAIcwFAWb0DybINAEiyAUCYCwDK6h1Ilm0AQJINAMJcAFBW70CybAMAkmwAEOYCgLJ6B5JlGwCQZAOAMBcAlNU7kCzbAIAkGwCEuQCgrN6BZNkGACTZACDMBQBl9Q4kyzYAIMkGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAIS5AKCs3oFk2QYAJNkAIMwFAGX1DiTLNgAgyQYAYS4AKKt3IFm2AQBJNgAIcwFAWb0DybINAEiyAUCYCwDK6h1Ilm0AQJINAMJcAFBW70CybAMAkmwAEOYCgLJ6B5JlGwCQZAOAMBcAlNU7kCzbAIAkGwCEuQCgrN6BZNkGACTZACDMBQBl9Q4kyzYAIMkGAGEuACirdyBZtgEASTYACHMBQFm9A8myDQBIsgFAmAsAyuodSJZtAECSDQDCXABQVu9AsmwDAJJsABDmAoCyegeSZRsAkGQDgDAXAJTVO5As2wCAJBsAhLkAoKzegWTZBgAk2QAgzAUAZfUOJMs2ACDJBgBhLgAoq3cgWbYBAEk2AAhzAUBZvQPJsg0ASLIBQJgLAMrqHUiWbQBAkg0AwlwAUFbvQLJsAwCSbAAQ5gKAsnoHkmUbAJBkA4AwFwCU1TuQLNsAgCQbAFTNzA9ggAr9aahO8QAAAABJRU5ErkJggg==");
+  color: #ffffff;
+  padding: 2em 0; }
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.coverpage-maturity {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 600;
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.title-section1 {
+  padding: 0 2em 0 3em; }
+
+.prefatory-section {
+  padding: 0 3em 0 6em; }
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none; }
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+.coverpage-contributors {
+  margin-top: 1em;
+  line-height: 1.5em;
+  font-weight: 300; }
+  .coverpage-contributors .role {
+    font-variant-caps: all-small-caps;
+    background: #f7f7f7;
+    border-radius: 5px;
+    padding: 0.1em 0.5em;
+    margin-left: 1em;
+    color: #485094;
+    font-size: 0.9em;
+    font-weight: 900; }
+  .coverpage-contributors .person {
+    display: block;
+    font-weight: 300; }
+
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em; }
+
+.coverpage-title .title-second {
+  display: none; }
+
+.coverpage-stage-block {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase; }
+
+.coverpage-warning {
+  border-top: solid 1px #f36f36;
+  border-bottom: solid 1px #f36f36;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 1em; }
+  .coverpage-warning .title {
+    color: #f36f36;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2em; }
+
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left; }
+  .copyright .name, .copyright .address {
+    color: #485094; }
+
+#myBtn {
+  font-family: "Source Code Pro", monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1d1d1d;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px; }
+  #myBtn:hover {
+    opacity: 1; }
+  @media print {
+    #myBtn {
+      display: none; } }
+a.anchorjs-link:hover {
+  background: none;
+  color: #485094;
+  box-shadow: none; }
+
+@page {
+  margin: 2cm 1cm 2cm 1cm; }
+
+@media print {
+  h1, .title-section1 {
+    page-break-before: always; }
+  h1.toc-contents {
+    margin-top: 2em; } }
+
+-->
+</style><title>Alignment to international principles&#x2009;&#x2014;&#x2009;WTO TBT principles for the Development of International Standards, Guides and Recommendations</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700&amp;display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head>
+  <body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container">
+    <div class="title-section"><div class="document-stage-band" id="published-band">
+  <p class="document-stage">Published</p>
+</div>
+
+<div class="document-type-band" id="report-band">
+  <p class="document-type">CalConnect Report</p>
+</div>
+
+<div id="toggle"> <span>&#x2022;</span> </div>
+
+<header>
+
+  <!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+      <div class="coverpage-doc-identity">
+        <div class="doc-number">
+          <span class="docnumber">CC/R 10100:2019</span>
+          <!-- <span class="docnumber-separator">:</span>
+            <span class="docyear">2019</span> -->
+        </div>
+
+        <div class="coverpage-title">
+          <span class="title-first">Alignment to international principles&#x2009;&#x2014;&#x2009;WTO TBT principles for the Development of International Standards, Guides and Recommendations</span>
+          <!--<span class="title-second"></span>-->
+        </div>
+      </div>
+
+      <div class="coverpage-logo">
+        <span>The Calendaring and Scheduling Consortium</span>
+      </div>
+
+      <div class="coverpage-tc-name">
+        <span>TC PUBLISH</span>
+      </div>
+
+      
+
+      
+
+      <div class="coverpage-contributors">
+        
+
+      </div>
+    </div>
+
+    <div class="title-section1">
+      <div class="coverpage-stage-block">
+        <span class="coverpage-stage" id="report">CalConnect Report</span>
+      </div>
+
+      <div class="coverpage-stage-block">
+        <span class="coverpage-maturity" id="published"></span>
+      </div>
+
+      
+
+      <div class="copyright">
+        <div class="year">
+          <div class="boilerplate-copyright">
+    <div>
+      <p id="_24511b15-671f-450b-86c8-a5708f509329">&#xA9; 2019 The Calendaring and Scheduling Consortium, Inc. </p>
+    </div>
+  </div>
+        </div>
+
+        <div class="message">
+          <div class="boilerplate-legal">
+    <div>
+      <p id="_41b7a163-f4cd-4f15-bbfc-671867b483b4">All rights reserved. Unless otherwise specified, no part of this
+        publication may be reproduced or utilized otherwise in any form or by any
+        means, electronic or mechanical, including photocopying, or posting on the
+        internet or an intranet, without prior written permission. Permission can
+        be requested from the address below.  </p>
+    </div>
+  </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="boilerplate-feedback">
+    <div>
+      <p id="boilerplate-name">The Calendaring and Scheduling Consortium, Inc.</p>
+      <p id="boilerplate-address">4390 Chaffin Lane<br />
+        McKinleyville<br />
+        California 95519<br />
+        United States of America<br />
+        <br />
+        <a href="mailto:copyright@calconnect.org">copyright@calconnect.org</a><br />
+        <a href="www.calconnect.org">www.calconnect.org</a>
+      </p>
+    </div>
+  </div>
+        </div>
+      </div>
+
+      <div class="rule"></div>
+    </div>
+  </div>
+</header>
+
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <div class="prefatory-section"><nav>
+  <h1 id="content">Contents</h1>
+  <div id="toc"><ul><li class="h1"><a href="#toc0">      Foreword</a></li><li class="h1"><a href="#toc1">      Introduction</a></li><li class="h1"><a href="#toc2">      1.&#xA0; Scope</a></li><li class="h1"><a href="#toc3">      2.&#xA0; Normative references</a></li><li class="h1"><a href="#toc4">      3.&#xA0; Terms and definitions</a></li><li class="h2"><a href="#toc5">      3.1.&#xA0; Terms and definitions</a></li><li class="h2"><a href="#toc6">      3.2.&#xA0; Abbreviations</a></li><li class="h1"><a href="#toc7">      4.&#xA0; WTO TBT principle 1: Transparency</a></li><li class="h2"><a href="#toc8">      4.1.&#xA0; Principles</a></li><li class="h2"><a href="#toc9">      4.2.&#xA0; Requirements</a></li><li class="h1"><a href="#toc10">      5.&#xA0; Openness</a></li><li class="h2"><a href="#toc11">      5.1.&#xA0; Non-discrimination in participation</a></li><li class="h1"><a href="#toc12">      6.&#xA0; Impartiality and consensus</a></li><li class="h1"><a href="#toc13">      7.&#xA0; Effectiveness and relevance</a></li><li class="h1"><a href="#toc14">      8.&#xA0; Coherence</a></li><li class="h1"><a href="#toc15">      9.&#xA0; Development dimension</a></li><li class="h1"><a href="#toc16">      Bibliography</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+
+      <p>&#xA0;</p>
+    </div>
+    <br />
+    <main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="authority">
+  
+
+
+
+  
+
+  
+</div>
+      <br />
+      <div id="_e242d229-5889-48fe-8438-8820df7d9938">
+        <h1 class="ForewordTitle" id="toc0">Foreword</h1>
+        <p id="_878f6d37-4a14-4f5e-b0cf-72b6c0f00624">The Calendaring and Scheduling Consortium (&#x201C;CalConnect&#x201D;) is a global non-profit
+organization with the aim of facilitating interoperability of technologies across
+user-centric systems and applications.</p>
+        <p id="_3ee886f4-85eb-464d-9970-badc67100167">CalConnect works closely with liaison partners including international
+organizations such as ISO, OASIS and M3AAWG.</p>
+        <p id="_9320fc1a-23bd-4616-82a5-7ee3065533f5">The procedures used to develop this document and those intended for its further
+maintenance are described in the CalConnect Directives.</p>
+        <p id="_158d2d08-f4d1-4f3c-bd6a-18a458a92ac5">In particular the different approval criteria needed for the different types of
+CalConnect documents should be noted. This document was drafted in accordance with the
+editorial rules of the CalConnect Directives.</p>
+        <p id="_9daa2471-74cd-43c7-b972-3255a4286698">Attention is drawn to the possibility that some of the elements of this
+document may be the subject of patent rights. CalConnect shall not be held responsible
+for identifying any or all such patent rights. Details of any patent rights
+identified during the development of the document will be in the Introduction
+and/or on the CalConnect list of patent declarations received (see
+www.calconnect.com/patents).</p>
+        <p id="_b22e51d0-e01f-480a-905e-65c5277ccbe7">Any trade name used in this document is information given for the convenience
+of users and does not constitute an endorsement.</p>
+        <p id="_28136e3b-7726-4cb1-afd8-efae77230332">This document was prepared by Technical Committee <i>PUBLISH</i>.</p>
+      </div>
+      <br />
+      <div class="Section3" id="_introduction">
+        <h1 class="IntroTitle" id="toc1">Introduction</h1>
+        <p id="_67c779f4-804f-4ff2-9986-2d9416dbe746">Amongst CalConnect&#x2019;s goals is to facilitate interoperable technologies
+across geographical and geopolitical barriers.</p>
+        <p id="_20d29112-8b2c-4964-816b-0326e01decb9">As an international standardizing body, CalConnect has agreed to operate
+in accordance to principles stated in the WTO TBT Agreement (<a href="#WTOTBTP">WTO TBT Principles</a>)
+to facilitate the reduction of trade barriers worldwide.</p>
+        <p id="_d9f755b2-d9e2-4039-b23f-56662a825642">In particular, this document provides description on how CalConnect
+implements the TBT principles for international standardization bodies
+stated in the &#x201C;Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement&#x201D; of <a href="#WTOTBTP">WTO TBT Principles</a>.</p>
+      </div>
+      <p class="zzSTDTitle1">Alignment to international principles&#x2009;&#x2014;&#x2009;WTO TBT principles for the Development of International Standards, Guides and Recommendations</p>
+      <div id="_scope">
+        <h1 id="toc2">1.&#xA0; Scope</h1>
+        <p id="_39de8f33-a27e-4dbb-8b5a-849f4db6caf4">This document describes the alignment of CalConnect practices and
+processes in their alignment to WTO TBT Principles, stated in
+the &#x201C;Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement&#x201D; of <a href="#WTOTBTP">WTO TBT Principles</a>.</p>
+        <p id="_92ec3895-4096-4665-979f-db4d38085bb2">Actual practices in the CalConnect standardization process are
+described in CalConnect directives. The goal of this document
+is to describe how current practices align to the principles;
+this document does not modify current or demand any
+additional practice.</p>
+      </div>
+      <div><h1 id="toc3">2.&#xA0; Normative references</h1><p id="_06f2b7e5-662c-465d-b112-4a833ca0d182">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p><p id="WTOTBTP" class="NormRef">WTO TBT Principles, <i>Annex 2: Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations with relation to Articles 2, 5 and Annex 3 of the Agreement; Decisions and recommendations adopted by the TBT Committee since 1 January 1995: Annexes to Part 1; WTO Agreements Series: Technical Barriers to Trade</i>, World Trade Organization</p><p id="CC10001" class="NormRef">CC CC/DIR 10001:2019, <i>CalConnect Directive: Standardization and publication</i></p> <p id="CC10002" class="NormRef">CC CC/DIR 10002:2019, <i>CalConnect Directive: Standard document requirements</i></p> <p id="CC10003" class="NormRef">CC CC/DIR 10003:2019, <i>CalConnect Directive: Patent policy</i></p></div>
+      <div id="terms">
+        <h1 id="toc4">3.&#xA0; Terms and definitions</h1>
+        <p id="_73f93ac8-9d39-48aa-aca2-341d2d3e4a17">For the purposes of this document,
+    the following terms and definitions apply.</p>
+        <div id="_terms_and_definitions"><h2 id="toc5">3.1.&#xA0; Terms and definitions</h2><h3 class="TermNum" id="_international_standardizing_body">3.1.1.&#xA0;<p class="Terms" style="text-align:left;">international standardizing body</p></h3>
+
+<p id="_6a9bdbbf-414d-4552-a03e-73eaab8e214a">body that publishes international standards</p>
+
+<h3 class="TermNum" id="_calconnect_participants">3.1.2.&#xA0;<p class="Terms" style="text-align:left;">CalConnect participants</p></h3>
+
+<p id="_ca525d81-54b6-4b5e-972f-94c15a89c21b">participants in CalConnect activities, including all members of CalConnect,
+experts participating on behalf of CalConnect liaison and partnership organizations</p>
+</div>
+        <div id="abbrev"><h2 id="toc6">3.2.&#xA0; Abbreviations</h2>
+
+<dl id="_bfd87f9e-91e4-4cbe-a271-bd02bd402a52"><dt><p>TBT</p></dt><dd>
+<p id="_5730901d-7dc4-435c-92bb-46c599dd295c">Technical Barriers to Trade</p>
+</dd><dt><p>WTO</p></dt><dd>
+<p id="_f4d84ace-acee-4a31-95c3-0930463bf23b">World Trade Organization</p>
+</dd></dl>
+</div>
+      </div>
+      <div id="_wto_tbt_principle_1_transparency">
+        <h1 id="toc7">4.&#xA0; WTO TBT principle 1: Transparency</h1>
+        <div id="_principles"><h2 id="toc8">4.1.&#xA0; Principles</h2><div class="Quote" id="_2a5f1d42-4bbd-405c-a8a8-eb4d36bf64a3"><p id="_d2757383-5f85-4a56-8625-4878a9b34a96">All essential information regarding current work programmes, as well as on proposals for standards, guides and recommendations under consideration and on the final results should be made easily accessible to at least all interested parties in the territories of at least all WTO Members.</p>
+<p id="_e89369a4-2fce-4617-ba7c-50d2f9783d23">Procedures should be established so that adequate time and opportunities are provided for written comments. The information on these procedures should be effectively disseminated.</p><p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1, Paragraph 1</a></p></div>
+<p id="_3fd49ae3-4e7e-43ab-b307-085013995ce4">Essential information regarding the current work programs at CalConnect,
+as well as proposals for standardization work items, covering all
+standards, guides and recommendations, are made readily accessible
+on the Internet at the (<a href="#CDR">CalConnect document registry</a>) free of charge.
+This website is available to all WTO Members with Internet access.</p>
+<p id="_897f9706-9f4b-42bb-9094-bb7b6d26ab35">The CalConnect standardization processes and procedures are described
+in CalConnect directives (see <a href="#CC10001">CC/DIR 10001:2019</a>, <a href="#CC10002">CC/DIR 10002:2019</a> and <a href="#CC10003">CC/DIR 10003:2019</a>),
+which fulfill the requirements and are publicly available on <a href="#CDR">CalConnect document registry</a>.</p></div>
+        <div id="_requirements"><h2 id="toc9">4.2.&#xA0; Requirements</h2><p id="_e7cd1f23-66fd-48be-882c-de6b73c10ff4">The WTO TBT decision specifically states that &#x201C;essential information&#x201D;
+should be provided according to the following requirements.</p>
+<div id="_early_notice_of_standards_development"><h3>4.2.1.&#xA0; Early notice of standards development</h3><div class="Quote" id="_a89b68cf-e656-495d-9ac3-7b047f85454a">
+
+
+<p id="_cabdc69b-606b-41f2-8efd-2d74bc24e5f0">a. the publication of a notice at an early appropriate stage, in such a manner as to enable interested parties to become acquainted with it, that the international standardizing body proposes to develop a particular standard;</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.a.</a></p></div>
+<p id="_700521ab-5bca-473a-aa82-fb14f4238fd9"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.1.3.a</a> specifies that an accepted standardization
+project proposal shall be listed in the CalConnect project registry.</p></div>
+<div id="_notification_to_members_of_standardizing_body"><h3>4.2.2.&#xA0; Notification to members of standardizing body</h3><div class="Quote" id="_234e3b79-e77a-485d-bafe-de03ffa78608">
+
+
+<p id="_6e229fc5-cce0-4d16-8b30-0502a82dbb39">b. the notification or other communication through established mechanisms to members of the international standardizing body, providing a brief description of the scope of the draft standard, including its objective and rationale. Such communications shall take place at an early appropriate stage, when amendments can still be introduced and comments taken into account;</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.b.</a></p></div>
+<p id="_8c65ff6d-c12e-42db-8056-fc07070dd077"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.1.3.b</a> specifies that an accepted standardization
+project proposal shall be announced to CalConnect members at an early enough stage
+to facilitate amendments and comments.</p></div>
+<div id="draft-availability"><h3>4.2.3.&#xA0; Draft availability to members</h3><div class="Quote" id="_c4bea373-d29c-4d0a-8fab-d9bba09f1cf8">
+
+
+<p id="_a1dd718c-047f-4221-8256-ea61c197d318">c. upon request, the prompt provision to members of the international standardizing body of the text of the draft standard;</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.c.</a></p></div>
+<ul id="_9031cbbd-ef58-4339-a80b-b838c132f09d">
+<li>
+<p id="_35e9b118-8cce-4032-87b7-6b516723548e"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.7.b</a> specifies that an a new draft version at the Preparatory
+stage should be announced to all TCs;</p>
+</li>
+<li>
+<p id="_45a34200-9d2e-4f48-82e8-59a8d5dba91d"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.7.c</a> specifies that an a new draft version at a development
+stage may be announced to the CalConnect-wide membership for comments; and</p>
+</li>
+</ul></div>
+<div id="_adequate_time_for_membership_comments"><h3>4.2.4.&#xA0; Adequate time for membership comments</h3><div class="Quote" id="_d359ba3a-2662-4c2f-a226-000ca1c2fd68">
+
+
+<p id="_1cb4a6d3-3a99-4607-abd6-fc10ddc6d073">d. the provision of an adequate period of time for interested parties in the territory of at least all members of the international standardizing body to make comments in writing and take these written comments into account in the further consideration of the standard;</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.d.</a></p></div>
+<p id="_2d3bcba3-55ce-46de-a0ae-9c526780a18a"><a href="#CC10001">CC/DIR 10001:2019, Clause 7</a> specifies that a public review period of 60 days
+is open to all interested parties prior to adoption of a standard.</p></div>
+<div id="_prompt_publication_notice"><h3>4.2.5.&#xA0; Prompt publication notice</h3><div class="Quote" id="_422325e7-526b-4d8f-bc87-bdb8daab39bd">
+
+
+<p id="_9b8b2e20-d303-45a6-aaf6-9c245bcdd5ee">e. the prompt publication of a standard upon adoption; and</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.e.</a></p></div>
+<p id="_793c72d1-f90c-4005-a432-c11a5e8f5fae"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.9.1</a> specifies that a standard once approved and published
+will be made available on the public <a href="#CDR">CalConnect document registry</a>.</p></div>
+<div id="_publication_of_work_program"><h3>4.2.6.&#xA0; Publication of work program</h3><div class="Quote" id="_a5fc1af9-5dc3-455e-89f2-e58269312635">
+
+
+<p id="_cfce9eb3-16cb-44c4-8328-a5e608684d7f">f. to publish periodically a work programme containing information on the standards currently being prepared and adopted.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1.f.</a></p></div>
+<p id="_0edfe9f3-d3dd-4b5f-917c-9595e2943925"><a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.9.3</a> specifies that all CalConnect projects are
+registered in the public <a href="#CDR">CalConnect document registry</a>.</p></div>
+<div id="_availability_over_the_internet"><h3>4.2.7.&#xA0; Availability over the Internet</h3><div class="Quote" id="_15fa44f1-dac6-4b3f-92aa-4e333fa55f80">
+
+
+<p id="_1a07bad5-49c9-4889-af11-3628f41e221d">It is recognized that the publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes electronically, via the Internet, where feasible, can provide a useful means of ensuring the timely provision of information. At the same time, it is also recognized that the requisite technical means may not be available in some cases, particularly with regard to developing countries. Accordingly, it is important that procedures are in place to enable hard copies of such documents to be made available upon request.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 1, Paragraph 2</a></p></div>
+<p id="_15617aea-0a41-4568-9e4f-c0bb7574ced6">Publication and communication of notices, notifications, draft standards, comments, adopted standards or work programmes of CalConnect are all performed through the Internet.</p>
+<p id="_6b0bb87e-95cb-4df0-9bdb-6f31769b52b4">In particular, the <a href="#CDR">CalConnect document registry</a> provides timely information of the following:</p>
+<ol type="a" id="_84e4dad9-d5c9-4941-9d8c-ff8fa6d99e97">
+<li>
+<p id="_fbf6426f-2a5d-4d0f-a317-230b473f6cc7">standards, draft standards, adopted standards;</p>
+</li>
+<li>
+<p id="_43779cca-772e-409b-812a-5a70a2b50b45">standards work programs and notifications; and</p>
+</li>
+<li>
+<p id="_4edf6e3b-c374-41c2-b853-598cc8d80b7e">comments solicitation notices.</p>
+</li>
+</ol>
+<p id="_11146b06-5112-4d60-aaf7-8ccb12057f34">The postal address of CalConnect is given on all CalConnect documents
+for which hard copies of such documents can be requested through
+a fair monetary sum, as determined by the Executive Director on a case by case basis.</p></div></div>
+      </div>
+      <div id="_openness">
+        <h1 id="toc10">5.&#xA0; Openness</h1>
+        <div id="_non_discrimination_in_participation"><h2 id="toc11">5.1.&#xA0; Non-discrimination in participation</h2><div class="Quote" id="_93d5b8ac-ef66-4829-a62d-499857b4b5fa"><p id="_2e68888f-10a1-4ab9-bb45-e66a3eed7854">Membership of an international standardizing body should be open on a non-discriminatory basis to relevant bodies of at least all WTO Members. This would include openness without discrimination with respect to the participation at the policy development level and at every stage of standards development, such as the:</p>
+<ol type="a" id="_5674ad71-de07-4774-84f1-30f0749146ce">
+<li>
+<p id="_fc72d89a-4fb9-43c0-8ab4-856b9caa4610">proposal and acceptance of new work items;</p>
+</li>
+<li>
+<p id="_0fa5e953-cbab-4a07-9bd5-4fc0c8a84040">technical discussion on proposals;</p>
+</li>
+<li>
+<p id="_9db65e65-e745-44d5-901e-d85f7747f947">submission of comments on drafts in order that they can be taken into account;</p>
+</li>
+<li>
+<p id="_d50eba91-db15-4529-a499-ee89e8c63ac6">reviewing existing standards;</p>
+</li>
+<li>
+<p id="_c4b35e8d-9fd4-4790-81ca-3a5fb8cfbdc4">voting and adoption of standards; and</p>
+</li>
+<li>
+<p id="_2674fdf0-727e-4806-a973-a0890f1b5f7a">dissemination of the adopted standards.</p>
+</li>
+</ol><p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 2, Paragraph 1</a></p></div>
+<p id="_98082e7f-f1b3-463b-8941-e8fb7791aab9">CalConnect is an international standards body that welcomes participation
+from commercial, non-commercial, governmental bodies and individuals
+through its membership system (see <a href="#CCMEMBERS">CalConnect members</a>).</p>
+<p id="_990c58af-747e-43e1-9554-955d41837bb4">Development of CalConnect Policies are driven and overseen by the
+elected Board of Directors of CalConnect, and their enactment and
+approval involve the CalConnect membership.</p>
+<p id="_ef36a806-fd77-4a49-8861-620ff529f027">As described in <a href="#CC10001">CC/DIR 10001:2019</a>, CalConnect members are allowed to
+participate in every stage of standards development:</p>
+<ol type="a" id="_e9720aad-a2ef-4277-8837-b60b5479bb1c">
+<li>
+<p id="_2b4f2c95-bacc-42e2-a363-5c515c6248d1">full members are allowed to propose new work items (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.a</a>),
+participate in standards development activities (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.b-d</a>),
+vote on adoption of standards (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.e</a>),
+and disseminate standards within the membership organization (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.f</a>);</p>
+</li>
+<li>
+<p id="_6a0ad954-b08c-4437-aeb0-311e1ea19578">supporting members are allowed to receive notification of newly proposed standards
+and submit their comments during the public review period (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.c</a>),
+and disseminate the adopted standards within the organization (<a href="#WTOTBTP">WTO TBT Principles, Clause 2.f</a>);</p>
+</li>
+<li>
+<p id="_385e8cbc-4757-4722-88c1-18afc152abf3">external liaison and partnership organizations are allowed varied participation
+rights depending on the particular agreement CalConnect has with them, for example,
+ISO/TCs that CalConnect liaisons with are allowed to fully participate in the
+CalConnect standardization process.</p>
+</li>
+</ol>
+<div class="Quote" id="_3a4697e0-cc9a-4dff-a41c-3b51981d3276">
+
+
+<p id="_4e120bd2-9d6d-45ab-8300-1391fe5f7d3f">Any interested member of the international standardizing body, including especially developing country Members, with an interest in a specific standardization activity should be provided with meaningful opportunities to participate at all stages of standard development. It is noted that with respect to standardizing bodies within the territory of a WTO Member that have accepted the Code of Good Practice for the Preparation, Adoption and Application of Standards by Standardizing Bodies (Annex 3 of the TBT Agreement) participation in a particular international standardization activity takes place, wherever possible, through one delegation representing all standardizing bodies in the territory that have adopted, or expected to adopt, standards for the subject-matter to which the international standardization activity relates. This is illustrative of the importance of participation in the international standardizing process accommodating all relevant interests.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 2, Paragraph 2</a></p></div>
+<p id="_64c7bb53-8300-463e-ace5-b2c1b456cf9f">CalConnect operates under a non-discrimination principle such that membership
+categories do not distinguish the origin of organizations between developing and
+developed countries.</p>
+<p id="_6015577b-a698-4450-aaf3-bb593225e480">This practice effectively allows participation of having one
+delegation representing multiple standardizing bodies at CalConnect
+international standardization activities as a single member, as specified in
+the last paragraph in (<a href="#WTOTBTP">WTO TBT Principles, Clause 2</a>).</p></div>
+      </div>
+      <div id="_impartiality_and_consensus">
+        <h1 id="toc12">6.&#xA0; Impartiality and consensus</h1>
+        <div class="Quote" id="_5ee7aa62-ce04-477f-a854-b3f30a1c8ae5">
+
+
+<p id="_e234033b-32c1-4686-9b9d-79249cdeda6c">All relevant bodies of WTO Members should be provided with meaningful opportunities to contribute to the elaboration of an international standard so that the standard development process will not give privilege to, or favour the interests of, a particular supplier/s, country/ies or region/s. Consensus procedures should be established that seek to take into account the views of all parties concerned and to reconcile any conflicting arguments.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 3, Paragraph 1</a></p></div>
+        <p id="_0213d17c-9f5e-4a73-9e8a-2e40adecb833">CalConnect standardization processes is consensus-based and does not
+provide privilege to any particular entity. <a href="#CC10001">CC/DIR 10001:2019</a> fully describes
+the CalConnect standardization processes, which employs a bottom-up
+consensus process.</p>
+        <p id="_9cdd3ff5-fe98-4685-8dd8-bd241f78bd3b">In particular, the application of requirements of <a href="#WTOTBTP">WTO TBT Principles, Clause 3</a>:</p>
+        <div class="Quote" id="_f5799a73-344f-4b50-a209-72a4ba2d1557"><p id="_28237c32-ed89-4025-9557-8af576dcbb64">Impartiality should be accorded throughout all the standards development process with respect to, among other things:</p>
+<ol type="a" id="_b6306054-7698-4eb5-8025-7d15714a9020">
+<li>
+<p id="_fde7cf4b-75ca-49df-b280-2f97ceb91e70">access to participation in work;</p>
+</li>
+<li>
+<p id="_7f6bda93-4ae5-4993-a153-68dfc329d771">submission of comments on drafts;</p>
+</li>
+<li>
+<p id="_2fcc5d4c-3f81-4c3a-b86c-e8722da290fb">consideration of views expressed and comments made;</p>
+</li>
+<li>
+<p id="_044721f7-5188-4524-bfac-29b83ed1fc46">decision-making through consensus;</p>
+</li>
+<li>
+<p id="_2b4a0bc7-19c7-4456-a9d5-e369d031d712">obtaining of information and documents;</p>
+</li>
+<li>
+<p id="_7f1c7af3-adc2-4f97-8bac-69e3f4dd7fa9">dissemination of the international standard;</p>
+</li>
+<li>
+<p id="_b8fe5377-c6cb-42d3-9642-54e72c6c7961">fees charged for documents;</p>
+</li>
+<li>
+<p id="_7d253ceb-d434-4092-aad5-3c2c4d18bce9">right to transpose the international standard into a regional or national standard; and</p>
+</li>
+<li>
+<p id="_316acbba-a311-4527-84a9-c27b45ea5dfc">revision of the international standard.</p>
+</li>
+</ol><p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 3, Paragraph 2</a></p></div>
+        <ol type="a" id="_4dbe2496-a72d-4780-a416-74d20923c56d">
+<li>
+<p id="_064cf0ff-6f83-44cd-967a-78a642bfa95c">Participation of work is at the TC-level as specified in <a href="#CC10001">CC/DIR 10001:2019, Clause 6.4</a>,
+which is open to all full members of CalConnect (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.a</a>);</p>
+</li>
+<li>
+<p id="_b81f5b92-1bf1-4b7c-bdf0-2677d0cb2067">Submission of comments at stages relevant to comments, including
+the Committee stage <a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.4</a>, Approval stage <a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.4</a>
+as well as the Pre-publication stages <a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.8</a> are open to all
+eligible bodies (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.b</a>);</p>
+</li>
+<li>
+<p id="_7e0fb062-8ecb-4ca5-8698-0b446a307fea">The CalConnect commenting process (<a href="#CC10001">CC/DIR 10001:2019, Clause 8.1</a>)
+specifies that comments are considered by the TCC and the TC that owns the
+standardization work item. Comments and feedback are judged according to
+their technical contributions in an impartial way
+(<a href="#CC10001">CC/DIR 10001:2019, Clause 8.4</a>) (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.c</a>).</p>
+</li>
+<li>
+<p id="_3515af08-8d0d-4069-aed4-a8e1731a8bb0">The CalConnect standardization process is fully based on a
+bottom-up consensus model resolved via balloting (<a href="#CC10001">CC/DIR 10001:2019, Clause 8.1</a>),
+with the scope being the technical body in charge, in this case
+the owning TC at the earlier stages, the TCC and the membership body
+at later stages (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.d</a>);</p>
+</li>
+<li>
+<p id="_6b0bd56f-33fc-4786-8232-da6345002d22">CalConnect standardization work items and their information can
+be obtained directly from the <a href="#CDR">CalConnect document registry</a> (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.e</a>).</p>
+</li>
+<li>
+<p id="_008c339d-c4ca-48df-85ef-576dd240e7b0">CalConnect standardization work items and their information can
+be disseminated to the membership organization <a href="#CDR">CalConnect document registry</a> (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.f</a>).</p>
+</li>
+<li>
+<p id="_4afa6ae5-505a-4c39-afa1-904779dcf155">CalConnect standardization work items are provided free-of-charge (<a href="#CC10001">CC/DIR 10001:2019, Clause 8.4</a>) (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.g</a>).</p>
+</li>
+<li>
+<p id="_ffd7ce22-ae96-4a9f-8e5a-6c0eb905a4c4">CalConnect allows regional or national standards bodies to transpose
+a CalConnect standard into a regional or national standard,
+under an official, non-discriminatory and mutually-beneficial arrangement
+in accordance with the following requirements:
+(aligns with  <a href="#WTOTBTP">WTO TBT Principles, Clause 3.h</a>)</p>
+<ol type="1" id="_acbddfe9-e361-45d2-bafe-86318131169b">
+<li>
+<p id="_11265db3-e6a2-4dce-8fde-2d0d92d2bd47">The arrangement must be officially settled by both parties prior to transposition;</p>
+</li>
+<li>
+<p id="_f30144bc-c842-42c9-b40d-92dc69a138b2">The relationship between the transposed CalConnect standard and the
+regional or national standard must be made clear to the reader, whether
+the transposition is:</p>
+<ul id="_4b039113-fddb-4aa6-9fb7-2eacd6ee2b26">
+<li>
+<p id="_9536881a-311b-4188-81d0-3151ff607b6f">identical (identical intention and content);</p>
+</li>
+<li>
+<p id="_2a976373-0b95-4126-bc21-847366fc9f35">equivalent (identical intention but with minor modifications); or</p>
+</li>
+<li>
+<p id="_1cca35f0-d9f9-4434-bae3-d2d5db087238">unequal (identical intention, but with major modifications)</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p id="_2e9ab76d-b3a9-46fc-a42f-f4135244e41b">CalConnect standardization work items are revised by the owning TC
+according to <a href="#CC10001">CC/DIR 10001:2019, Clause 11</a>, of which participation is open to all
+full members (aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 3.i</a>).</p>
+</li>
+</ol>
+      </div>
+      <div id="_effectiveness_and_relevance">
+        <h1 id="toc13">7.&#xA0; Effectiveness and relevance</h1>
+        <div class="Quote" id="_7b3234c3-c1e8-418a-ab13-243a6d936187">
+
+
+<p id="_42285f4d-2947-4cf1-be24-c3b1494df7a2">In order to serve the interests of the WTO membership in facilitating international trade and preventing unnecessary trade barriers, international standards need to be relevant and to effectively respond to regulatory and market needs, as well as scientific and technological developments in various countries. They should not distort the global market, have adverse effects on fair competition, or stifle innovation and technological development. In addition, they should not give preference to the characteristics or requirements of specific countries or regions when different needs or interests exist in other countries or regions. Whenever possible, international standards should be performance based rather than based on design or descriptive characteristics.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 4, Paragraph 1</a></p></div>
+        <p id="_56b2fdbd-14e3-43f1-8bb2-d0becfa97837">CalConnect is a membership-driven international standards organization that
+aims to facilitate interoperability of technical systems, often through
+standardization of innovative technologies
+(<a href="#CCMISSION">&#x201C;Introduction to CalConnect: Overview&#x201D;</a>).</p>
+        <p id="_10ab9285-7bd3-4ab0-a7eb-b0b6962dd495">Membership at CalConnect is open to all WTO members, and its standards
+are widely impacting on a global scale (<a href="#CCMEMBERS">CalConnect members</a>).</p>
+        <p id="_44ac9e3f-1538-4367-9660-8ec9ed8f10c1">Standards created by CalConnect are performance-based, as in based
+on sets of requirements rather than based on descriptive characteristics
+(<a href="#CC10001">CC/DIR 10001:2019, Clause 5.2</a>).</p>
+        <div class="Quote" id="_a746ba4a-21c0-4af6-aff6-dca480b8cb96"><p id="_1cc93569-a2c4-4da8-8abe-e87a06ef660f">Accordingly, it is important that international standardizing bodies:</p>
+<ol type="a" id="_69bf1204-83ad-46fc-8217-cb488e2a4869">
+<li>
+<p id="_a2af8297-c42d-4542-8cb4-36c259b12434">take account of relevant regulatory or market needs, as feasible and appropriate, as well as scientific and technological developments in the elaboration of standards;</p>
+</li>
+<li>
+<p id="_71ced003-29de-4e63-9ab8-07aac8651e24">put in place procedures aimed at identifying and reviewing standards that have become obsolete, inappropriate or ineffective for various reasons; and</p>
+</li>
+<li>
+<p id="_206c6e2e-bcd0-4339-b258-9f6aaae858af">put in place procedures aimed at improving communication with the World Trade Organization.</p>
+</li>
+</ol><p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 4, Paragraph 2</a></p></div>
+        <p id="_6b5c5d42-a9d3-42c2-ad0e-778f8099ac1a">CalConnect standardization work item initiation requirements (<a href="#CC10001">CC/DIR 10001:2019, Clause 6.6.1.2.c&#x2013;d</a>)
+aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 4.a</a>.</p>
+        <p id="_b08f3b77-8463-421b-9d1f-35cece2f5ed8"><a href="#CC10001">CC/DIR 10001:2019, Clause 11.1</a> specifies the mandatory review period
+for every CalConnect standard to be reviewed for relevance,
+which aligns with <a href="#WTOTBTP">WTO TBT Principles, Clause 4.b</a>.</p>
+        <p id="_7a8edeaf-d8c1-45d8-91df-88510ace99c3">In order to improve communication with the World Trade Organization,
+CalConnect is a signatory of the <a href="#WTOTBTCode">WTO TBT Code of Good Practice</a> and is listed on the <a href="#WTOISOSIG">WTO ISO Standards Information Gateway</a>.
+The CalConnect standardization work program is provided at the <a href="#CDR">CalConnect document registry</a> with regular updates, and is also linked from the <a href="#WTOISOSIG">WTO ISO Standards Information Gateway</a>.</p>
+      </div>
+      <div id="_coherence">
+        <h1 id="toc14">8.&#xA0; Coherence</h1>
+        <div class="Quote" id="_20d2ce1d-c56f-451b-9b98-fa6508010b8e">
+
+
+<p id="_7a23bdef-578e-409d-9800-e4d888383f4f">In order to avoid the development of conflicting international standards, it is important that international standardizing bodies avoid duplication of, or overlap with, the work of other international standardizing bodies. In this respect, cooperation and coordination with other relevant international bodies is essential.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 5</a></p></div>
+        <p id="_73af8a92-2d58-4166-a3fe-14ea728c1e6f">CalConnect maintains a number of liaisons and partnerships with
+other international standardization bodies including ISO, OASIS
+and M3AAWG in order to:</p>
+        <ul id="_ef31e23b-49e1-4693-b0f9-6fd2a5eb1e24">
+<li>
+<p id="_930441c5-f1f1-4d02-b885-f20246dfac7b">coordinate to prevent duplication of work on standardization topics;</p>
+</li>
+<li>
+<p id="_1ad74634-f69a-45bd-bceb-7a62878fc607">cooperate and collaborate on standardization topics.</p>
+</li>
+</ul>
+      </div>
+      <div id="_development_dimension">
+        <h1 id="toc15">9.&#xA0; Development dimension</h1>
+        <div class="Quote" id="_e8e799b8-c652-486f-bd56-7a3b9af7c008">
+
+
+<p id="_02a4651e-d780-49b9-a7f8-b473b82feb62">Constraints on developing countries, in particular, to effectively participate in standards development, should be taken into consideration in the standards development process. Tangible ways of facilitating developing countries&#x2019; participation in international standards development should be sought. The impartiality and openness of any international standardization process requires that developing countries are not excluded de facto from the process. With respect to improving participation by developing countries, it may be appropriate to use technical assistance, in line with Article 11 of the TBT Agreement. Provisions for capacity building and technical assistance within international standardizing bodies are important in this context.</p>
+<p class="QuoteAttribution">&#x2014; World Trade Organization, <a href="#WTOTBTP">WTO TBT Principles, Clause 6</a></p></div>
+        <p id="_ffbc2d8c-eb46-4e7c-bc34-cfe303105334">CalConnect adheres to the principles that participation in
+the standardization process should be fair and be based on
+technical and market merit, regardless of the origin of the
+participant.</p>
+        <p id="_313ed7dd-9e64-42ff-84a9-bafaf268e591">To this end, CalConnect adopts the following practices
+that are beneficial to developing countries:</p>
+        <ul id="_a220064b-3c4f-42cf-8df2-cfbd7253fa77">
+<li>
+<p id="_41b8a6d8-cc21-42a0-ab0d-7d9171044e3c">Our standards facilitates the ease of international trade;</p>
+</li>
+<li>
+<p id="_3a32df00-24fc-4b08-a46f-eed11efa0709">Our standards are open and free, available on the <a href="#CDR">CalConnect document registry</a> through the Internet;</p>
+</li>
+<li>
+<p id="_30e461ac-d44d-44af-84ca-020f85d059f2">Contribution to standards can be done over phone, email or the Internet;</p>
+</li>
+<li>
+<p id="_bb09c6e4-d96e-445d-b992-65ab8fcb1197">Non-members can get directly in touch about a standardization subject matter at certain events, including CalConnect Hackathons;</p>
+</li>
+<li>
+<p id="_ed0ae439-4c97-421a-8038-fe8677345b9f">Our general mailing list is open for all interested in the subject;</p>
+</li>
+<li>
+<p id="_d3ec16e7-f8d2-4e6c-b83c-b80048e76a7f">Our public commenting process (<a href="#CC10001">CC/DIR 10001:2019, Clause 8</a>) is open to everyone;</p>
+</li>
+<li>
+<p id="_71758f0b-8a4b-464d-b77b-4ae9b9abfcea">Our supporting membership category provides a large discount
+compared to full membership allowing smaller organizations
+and those from developing countries to participate and obtain
+visibility in the standardization process;</p>
+</li>
+<li>
+<p id="_f0a35f7e-469c-4f71-a6b4-719e83d24ec6">Full membership fees for commercial vendors are considered on
+organizational revenue, allowing those from developing countries to
+benefit from a lower membership fee.
+In addition, membership fees for all other organizations and
+individual memberships are set low to ensure availability
+regardless of revenue or location.</p>
+</li>
+</ul>
+      </div>
+      <br />
+      <div><h1 class="Section3" id="toc16">Bibliography</h1>
+<p id="CDR" class="Biblio">[1]&#xA0; CalConnect document registry, <i>CalConnect document registry</i>, <a href="https://standards.calconnect.org">https://standards.calconnect.org</a></p><p id="CCMEMBERS" class="Biblio">[2]&#xA0; CalConnect members, <i>CalConnect members</i>, <a href="https://www.calconnect.org/membership-categories-and-fees">https://www.calconnect.org/membership-categories-and-fees</a></p><p id="CCMISSION" class="Biblio">[3]&#xA0; Introduction to CalConnect, <i>Introduction to CalConnect</i>, <a href="https://www.calconnect.org/about">https://www.calconnect.org/about</a></p><p id="WTOISOSIG" class="Biblio">[4]&#xA0; WTO ISO Standards Information Gateway, <i>WTO ISO Standards Information Gateway</i>, <a href="https://tbtcode.iso.org/">https://tbtcode.iso.org/</a></p><p id="WTOTBTCode" class="Biblio">[5]&#xA0; WTO TBT Code of Good Practice, <i>WTO TBT Code of Good Practice</i>, <a href="https://www.wto.org/english/tratop_e/tbt_e/tbt_e.htm">https://www.wto.org/english/tratop_e/tbt_e/tbt_e.htm</a></p>
+
+
+
+
+
+</div>
+    </main>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+  
+  <script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('.container').animate({ 'padding-left': '31px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('.container').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+  <script>
+/*
+  $(document).ready(function() {
+          $('[id^=toc]').each(function ()
+          {
+             var currentToc = $(this);
+       var url = window.location.href;
+             currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "' </a>");
+          });
+});
+*/
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body>
+</html>
