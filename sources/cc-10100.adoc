@@ -9,10 +9,6 @@
 :published-date: 2019-03-18
 :language: en
 :technical-committee: PUBLISH
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :imagesdir: images
 :docfile: cc-10100.adoc
 :mn-document-class: csd
