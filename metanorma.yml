@@ -1,8 +1,9 @@
 ---
 metanorma:
-  deploy:
-    email: "ci@metanorma.org"
-relaton:
+  source:
+    files:
+      - sources/cc-10100.adoc
+
   collection:
-    name: TC-PUBLISH
+    name: "Report: Alignment of CalConnect practices towards WTO TBT Principles for the Development of International Standards, Guides and Recommendations"
     organization: CalConnect
