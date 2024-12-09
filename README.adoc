@@ -1,5 +1,3 @@
-:repo-name: csd-wto-tbt-principles
-
 = CalConnect Report: Alignment of CalConnect practices towards WTO TBT Principles for the Development of International Standards, Guides and Recommendations
 
 This work item belongs to TC PUBLISH.
@@ -16,8 +14,8 @@ This document is available in its rendered forms here:
 `sources/`::
 source of documents and models
 
-`sources/cc-10001.adoc`::
-CalConnect CC 10001 standard.
+`sources/cc-10100.adoc`::
+CalConnect CC 10100 standard.
 
 `_site/`::
 (automatically generated using `metanorma site generate`) published document.
