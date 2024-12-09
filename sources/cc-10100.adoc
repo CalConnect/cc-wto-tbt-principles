@@ -7,11 +7,10 @@
 :copyright-year: 2019
 :revdate: 2019-03-18
 :published-date: 2019-03-18
-:language: en
 :technical-committee: PUBLISH
 :imagesdir: images
 :mn-document-class: cc
-:mn-output-extensions: xml,html,pdf,rxl
+:mn-output-extensions: xml,html,pdf
 :local-cache-only:
 :data-uri-image:
 
