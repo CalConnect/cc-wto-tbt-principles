@@ -2,4 +2,4 @@
 
 documents:
   - pattern: "cc-*"
-    channels: [public/directives]
+    channels: [public/standards]
