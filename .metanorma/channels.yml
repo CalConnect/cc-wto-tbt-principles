@@ -1,5 +1,0 @@
-# .metanorma/channels.yml — cc-wto-tbt-principles
-
-channels:
-  - name: public/standards
-    description: "CalConnect documents from cc-wto-tbt-principles"
