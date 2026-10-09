@@ -42,6 +42,12 @@ of users and does not constitute an endorsement.
 This document was prepared by Technical Committee _{technical-committee}_.
 
 
+[abstract]
+== Abstract
+
+This document describes the alignment of CalConnect practices and processes to the WTO TBT principles stated in the Decision of the Committee on Principles for the Development of International Standards, Guides and Recommendations. Actual practices in the CalConnect standardization process are described in CalConnect directives.
+
+
 == Introduction
 
 Amongst CalConnect's goals is to facilitate interoperable technologies
